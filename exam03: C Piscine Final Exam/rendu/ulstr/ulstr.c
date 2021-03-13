@@ -14,7 +14,9 @@ bool is_upper(char c)
 int main(int ac, char* av[])
 {
 	int i;
-	
+	char *c = "a";
+
+	c[0] = 'a';
 	i = 0;
 	if (ac == 2)
 	{
